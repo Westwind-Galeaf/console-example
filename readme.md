@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Westwind-Galeaf/console-example.svg?branch=master)](https://travis-ci.org/Westwind-Galeaf/console-example)
+
 # Основа для создания консольной утилиты
 
 Представляет собой обертку над Symfony Console Component. С удобным способом организации консольных команд.
