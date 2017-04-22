@@ -54,13 +54,13 @@ class Console
      */
     public function run(InputInterface $input = null, OutputInterface $output = null)
     {
-        return $this->application->run($input, $output);;
+        return $this->application->run($input, $output);
     }
 
     /**
      * Построение списка комманд в консольном приложении
      *
-     * @return bool
+     * @return bool|null
      */
     private function buildCommandListInApplication()
     {
