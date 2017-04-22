@@ -28,15 +28,15 @@ class ExampleCommand extends BaseCommand
      *
      * @var string
      */
-    public $message = "Hello world\n";
+    public $message = "Hello world";
 
     /**
-     * Метод исполнят команду
+     * Сполнение команды
      *
      * @param InputInterface $input
      * @param OutputInterface $output
      *
-     * @return null|int null
+     * @return null
      */
     public function execute(InputInterface $input, OutputInterface $output)
     {
